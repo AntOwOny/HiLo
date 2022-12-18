@@ -1,0 +1,78 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  #game {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 500px;
+  }
+  
+  #card-container {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+  }
+  
+  .card {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 75px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .card-value {
+    font-size: 2em;
+    font-weight: bold;
+  }
+  
+  #controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  button {
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: lightblue;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 10px;
+  }
+  
+  #bet-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  #bet-form {
+    display: flex;
+    align-items: center;
+  }
+  
+  #bet-amount {
+    width: 50px;
+    margin: 0 10px;
+  }
+  
+  #result {
+    margin: 20px 0;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
