@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Higher Lower Game</title>
+</head>
+<body>
+  <h1>Higher Lower Game</h1>
+  <div id="game">
+    <div id="card-container">
+      <div id="current-card" class="card">
+        <!-- This div will be updated with the current card using JavaScript -->
+      </div>
+      <div id="next-card" class="card">
+        <!-- This div will be updated with the next card using JavaScript -->
+      </div>
+    </div>
+    <div id="controls">
+      <button id="higher-button">Higher</button>
+      <button id="lower-button">Lower</button>
+    </div>
+  </div>
+  <div id="bet-container">
+    <form id="bet-form">
+      <label for="bet-amount">Bet amount:</label>
+      <input type="number" id="bet-amount" min="1" value="1">
+      <button type="submit">Place bet</button>
+    </form>
+  </div>
+  <div id="result">
+    <!-- This div will be updated with the result of the game (win/lose) using JavaScript -->
+  </div>
+</body>
+</html>
